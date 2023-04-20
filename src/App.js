@@ -7,9 +7,9 @@ export default function App() {
     <>
       <Container>
         <div className="row">
-          <div className="col-4">
+          <div className="col-8">
             <h1>Primera parte</h1>
-            <table>
+            <table className="table">
               <tr>
                 <th>Nombre</th>
                 <th>Direccion</th>
@@ -73,7 +73,7 @@ export default function App() {
               </div>
 
               <button type="submit" class="btn btn-primary">
-                Submit
+                Enviar
               </button>
             </form>
           </div>
