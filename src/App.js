@@ -34,6 +34,48 @@ export default function App() {
           </div>
           <div className="col-4">
             <h1>Parte dos</h1>
+
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">
+                  Nombre
+                </label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">
+                  Direccion
+                </label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">
+                  Telefono
+                </label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                Submit
+              </button>
+            </form>
           </div>
         </div>
       </Container>
